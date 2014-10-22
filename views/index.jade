@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	h1.titulo= title
+	div.main
+		div(style="float:left;")
+			img(src="https://elreflejoenlaventana.files.wordpress.com/2014/05/salas_de_espera_web.jpg")
+		div(style="float:left;width:100px;margin:15px;padding:10px;")
+			div(style="margin:0 auto;")
+				form
+					input.campo(placeholder="Nombre")
+					input.campo(placeholder="Apellido")
+					input.campo(placeholder="Correo Electronico")
+					input.cta(type="submit" value="Conviértete en pionero")
