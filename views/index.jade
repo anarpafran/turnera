@@ -1,14 +1,31 @@
 extends layout
 
 block content
-	h1.titulo= title
+
 	div.main
-		div(style="float:left;")
-			img(src="https://elreflejoenlaventana.files.wordpress.com/2014/05/salas_de_espera_web.jpg")
-		div(style="float:left;width:100px;margin:15px;padding:10px;")
-			div(style="margin:0 auto;")
-				form
-					input.campo(placeholder="Nombre")
-					input.campo(placeholder="Apellido")
-					input.campo(placeholder="Correo Electronico")
-					input.cta(type="submit" value="Conviértete en pionero")
+		
+		div.logo
+			img(src="/images/logo.png")
+		div.cuerpo
+			div(style="width:46%;margin:15px;padding:10px; display: inline-block;")
+				h1.title Esperimenta una forma diferente de gestionar turnos
+				div(style="margin:0 auto; text-align: center;")
+					form
+						input.campo(placeholder="Nombre")
+						input.campo(placeholder="Apellido")
+						input.campo(placeholder="Correo Electronico")
+						input.cta(type="submit" value="Conviértete en pionero")
+			div(style="display:inline-block; width:50%; text-align: center;")
+				img(src="https://elreflejoenlaventana.files.wordpress.com/2014/05/salas_de_espera_web.jpg")
+		div.beneficios
+			div(style="width:46%; margin:15px; padding:10px; display:inline-block;")
+				ul
+					li Mas usuarios satisfechos
+					li Ahorro de espacio
+					li Seguimiento a la atencion de usuarios	
+			div(style="display:inline-block; width:50%; ")
+				ul
+					li Agenta automatica de citas
+					li Optimizacion de recurso humano
+					li Automatizacion de citas
+			
