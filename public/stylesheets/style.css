@@ -5,29 +5,3 @@ body {
 a {
   color: #00b7ff;
 }
-.titulo{
-	font-size:34px; text-align: center; color:#234FFF;
-}
-.main{
-	margin: 0 auto;
-	width: 80%;
-	border: 1px solid red;
-}
-
-.campo, .cta{
-	height: 30px;
-	margin: 5px 10px;
-	width: 400px;
-}
-
-.cta{
-	
-	background: #234FFF;
-	border: none;
-	color: #fff;
-	font-size: 25px;
-	height: 40px;
-	margin: 5px 5px; 
-	width: 415px;
-}
-
