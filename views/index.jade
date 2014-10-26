@@ -10,13 +10,13 @@ block content
 			div(style="width:46%;margin:15px;padding:10px; display: inline-block;")
 				h1.title Esperimenta una forma diferente de gestionar turnos
 				div(style="margin:0 auto; text-align: center;")
-					form
-						input.campo(placeholder="Nombre")
-						input.campo(placeholder="Apellido")
-						input.campo(placeholder="Correo Electronico")
+					form(action="/users" method="get")
+						input.campo(placeholder="Nombre", name="name" required)
+						input.campo(placeholder="Apellido" name="last" required)
+						input.campo(placeholder="Correo Electronico",type="email" name="mail" required)
 						input.cta(type="submit" value="Conviértete en pionero")
 			div(style="display:inline-block; width:50%; text-align: center;")
-				img(src="https://elreflejoenlaventana.files.wordpress.com/2014/05/salas_de_espera_web.jpg")
+				img(src="/images/salas_de_espera_web.jpg")
 		div.beneficios
 			div(style="width:46%; margin:15px; padding:10px; display:inline-block;")
 				ul
@@ -28,4 +28,5 @@ block content
 					li Agenta automatica de citas
 					li Optimizacion de recurso humano
 					li Automatizacion de citas
+div Andres Padilla @anarpafran
 			

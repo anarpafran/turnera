@@ -1,7 +1,39 @@
 body {
-  padding: 50px;
+  padding: 0px;
+  margin: 0px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 a {
   color: #00b7ff;
+}
+li {
+  list-style: url("/images/chulo.png");
+}
+.logo {
+  background: #f24c27;
+  height: 130px;
+  padding: 15px;
+  text-align: center;
+}
+.logo img {
+  padding: 15px;
+  width: 25%;
+}
+.cuerpo {
+  background: #037e8c;
+  color: #fff;
+  padding: 5px;
+}
+.campo,
+.cta {
+  display: block;
+  height: 50px;
+  margin: 15px;
+  width: 400px;
+  font-size: 24px;
+}
+.cta {
+  background: #f24c27;
+  border: none;
+  color: #fff;
 }
