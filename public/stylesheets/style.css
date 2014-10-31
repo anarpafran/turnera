@@ -11,7 +11,7 @@ li {
 }
 .logo {
   background: #f24c27;
-  height: 130px;
+  height: 100px;
   padding: 15px;
   text-align: center;
 }
@@ -36,4 +36,14 @@ li {
   background: #f24c27;
   border: none;
   color: #fff;
+}
+.mdo-titulo {
+  background: #c0c0c0;
+  height: 100px;
+  padding: 15px;
+  border-bottom: solid #747474 1px;
+}
+.mdo-cuerpo {
+  background: #c0c0c0;
+  margin: 0 20%;
 }
